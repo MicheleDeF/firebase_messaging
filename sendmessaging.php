@@ -8,8 +8,7 @@ define('SERVER_API_KEY','<Server key>');
 
 $header = [
             'Authorization: key='.SERVER_API_KEY,
-	    'Content-Type: Application/json'
-			
+	    'Content-Type: Application/json'			
           ];
 		  
 $notification = [
@@ -51,16 +50,3 @@ if ($err) {
 	echo "invalid token!";
 	
 }
-
-
-
-
-
-
-
-
-
-?>
-
-
-
