@@ -4,7 +4,7 @@ if(isset($_GET['token'])){
 	
 $tokens = $_GET['token'];
 
-define('SERVER_API_KEY','AAAACaII-OQ:APA91bHnpH2lmM2eWzMGUTPWZNFrCnQrvEkLL_Tzr5Xw2IPowJfpjPCNEoJeI8-AIY0J7CFe8Oan_9EWJQqJv57Nr96yD3wZwePGHEhql8tIAM376VXiBIc2zZhmVhVxvSgBKzjx9QoQ');
+define('SERVER_API_KEY','<Server key>');
 
 $header = [
             'Authorization: key='.SERVER_API_KEY,
