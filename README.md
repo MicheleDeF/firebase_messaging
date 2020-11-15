@@ -8,7 +8,7 @@ Follow the steps below
 git clone https://github.com/MicheleDeF/firebase_messagging.git
 ```
 - Create an application in the Firebase Console
-[Firebase Console][df1]
+- [https://console.firebase.google.com][df1]
 
 
 
