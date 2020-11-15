@@ -53,9 +53,6 @@ limitations under the License.
             <p id="token" style="word-break: break-all;"></p>
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
                     onclick="deleteToken()">Delete Token</button>
-			<button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-			        onclick="sendNotification();">
-			Send Notification</button>
           </div>
           <!-- div to display the UI to allow the request for permission to
                notify the user. This is shown if the app has not yet been
@@ -82,7 +79,7 @@ limitations under the License.
 <!-- <script src="/__/firebase/7.4.0/firebase-messaging.js"></script> -->
 <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.5.2/firebase-messaging.js"></script>
-<script src="https://www.ilblogdiunprogrammatore.it/demo/messaging/init.js"></script>
+<script src="./init.js"></script>
 
 <script>
   // [START get_messaging_object]
@@ -91,7 +88,7 @@ limitations under the License.
   // [END get_messaging_object]
   // [START set_public_vapid_key]
   // Add the public key generated from the console here.
-  messaging.usePublicVapidKey('BDZv2ElERhOlvKqToK9eBX-IdKYfKKIePTrXOcZgyLi-CTPbKSerg4Q-hD6uEAbTH4tMpe11f7RcBCvv96csOS8');
+  messaging.usePublicVapidKey('<Public key>');
   // [END set_public_vapid_key]
 
   // IDs of divs that display Instance ID token UI or request permission UI.
@@ -185,16 +182,7 @@ notification.close();
     // [END get_token]
   }
 
-function sendNotification(){  
-  messaging.getToken().then((currentToken) => {  
-  var url = 'https://www.ilblogdiunprogrammatore.it/demo/messaging/sendmessaging.php?token='+currentToken;  
-  window.open( url, '_blank');
-  
-  });
-   }
-  
-  
-  function showToken(currentToken) {
+ function showToken(currentToken) {
     // Show token in console and UI.
     const tokenElement = document.querySelector('#token');
     tokenElement.textContent = currentToken;
