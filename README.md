@@ -2,8 +2,16 @@
 
 Follow the steps below
 
-- clone repository
+- Clone repository
 
 ```sh
 git clone https://github.com/MicheleDeF/firebase_messagging.git
 ```
+- Create an application in the Firebase Console
+[Firebase Console][df1]
+
+
+
+
+
+ [df1]: <https://console.firebase.google.com/>
