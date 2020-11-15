@@ -3,7 +3,7 @@
 // If you do not serve/host your project using Firebase Hosting see https://firebase.google.com/docs/web/setup
  importScripts('https://www.gstatic.com/firebasejs/7.5.2/firebase-app.js');
  importScripts('https://www.gstatic.com/firebasejs/7.5.2/firebase-messaging.js');
- importScripts('https://www.ilblogdiunprogrammatore.it/demo/messaging/init.js');
+ importScripts('./init.js');
 
 const messaging = firebase.messaging();
 
