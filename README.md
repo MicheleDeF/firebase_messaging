@@ -3,5 +3,5 @@
 - Clone repository
 
 ```sh
-git clone https://github.com/MicheleDeF/firebase_messagging.git
+git clone https://github.com/MicheleDeF/firebase_messaging.git
 ```
