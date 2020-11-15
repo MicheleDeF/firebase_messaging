@@ -1,8 +1,8 @@
 <?php
 
-$tokens = "< token >";
+$tokens = "< here the token >";
 
-define('SERVER_API_KEY','< Server key >');
+define('SERVER_API_KEY','< here server key >');
 
 $header = [
             'Authorization: key='.SERVER_API_KEY,
