@@ -8,12 +8,12 @@ define('SERVER_API_KEY','<Server key>');
 
 $header = [
             'Authorization: key='.SERVER_API_KEY,
-			'Content-Type: Application/json'
+	    'Content-Type: Application/json'
 			
           ];
 		  
 $notification = [
-        'title' => 'il blog di un programmatore ha un nuovo articolo',
+                'title' => 'il blog di un programmatore ha un nuovo articolo',
 		'body'  => 'React JS, impostare l\'ambiente di lavoro',
 		'icon'  => 'https://www.ilblogdiunprogrammatore.it/image/favicon.ico',
 		'click_action' => 'https://www.ilblogdiunprogrammatore.it/39825-react-js-impostare-l-ambiente-di-lavoro.html'
@@ -21,8 +21,8 @@ $notification = [
 		  
 $payload = [
             'notification' => $notification,
-			'to' => $tokens
-			];
+            'to' => $tokens
+	  ];
 
 $curl = curl_init();
 
