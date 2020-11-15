@@ -7,7 +7,10 @@ Follow the steps below
 ```sh
 git clone https://github.com/MicheleDeF/firebase_messagging.git
 ```
-- Create an application in the Firebase Console, [https://console.firebase.google.com][df1]
+- Create an application in the Firebase Console
+```sh
+[https://console.firebase.google.com][df1]
+```
 
 
 
