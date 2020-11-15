@@ -1,13 +1,13 @@
 var firebaseConfig= 
 { 
   apiKey:"<Api-Key>", 
-  authDomain:"<ID-Progetto>.firebaseapp.com", 
-  databaseURL:"https://<ID-Progetto>.firebaseio.com", 
-  projectId:"<ID-Progetto>", 
-  storageBucket:"<ID-Progetto>.appspot.com", 
-  messagingSenderId:"<Id-Mittente>", 
+  authDomain:"<ID-Project>.firebaseapp.com", 
+  databaseURL:"https://<ID-Project>.firebaseio.com", 
+  projectId:"<ID-Project>", 
+  storageBucket:"<ID-Project>.appspot.com", 
+  messagingSenderId:"<ID-Sender>", 
   appId:"<App-Id>", 
-  measurementId:"<Measurement-Id>" 
+  measurementId:"<Measurement-ID>" 
 };
 
  firebase.initializeApp(firebaseConfig);
