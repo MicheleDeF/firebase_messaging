@@ -1,10 +1,8 @@
 <?php
 
-if(isset($_GET['token'])){
-	
-$tokens = $_GET['token'];
+$tokens = "< token >";
 
-define('SERVER_API_KEY','<Server key>');
+define('SERVER_API_KEY','< Server key >');
 
 $header = [
             'Authorization: key='.SERVER_API_KEY,
@@ -45,8 +43,3 @@ if ($err) {
 }
 	
 	
-}else{
-	
-	echo "invalid token!";
-	
-}
