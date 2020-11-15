@@ -39,7 +39,7 @@ curl_close($curl);
 if ($err) {
   echo "cURL Error #:" . $err;
 } else {
-  echo "Notifica inviata con successo.";  
+  echo "Notification sent successfully.";  
 }
 	
 	
