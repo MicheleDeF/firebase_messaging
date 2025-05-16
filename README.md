@@ -28,7 +28,7 @@ var firebaseConfig=
   "gcm_sender_id": "<Sender id>"
 }
 ```
-- Follow the instructions on how to proceed from [link][help]
 
 
- [help]: <https://www.ilblogdiunprogrammatore.it/43645-integrazione-di-firebase-cloud-messaging-fcm-in-un-applicazione-web.html>
+
+
